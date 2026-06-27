@@ -23,6 +23,4 @@ This website was developed to present my technical skills, academic projects, an
 - CSS3
 - JavaScript
 
-
-
 ⭐ Thank you for visiting my portfolio!
