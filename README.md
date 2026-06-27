@@ -23,14 +23,6 @@ This website was developed to present my technical skills, academic projects, an
 - CSS3
 - JavaScript
 
-## 📬 Contact
 
-Feel free to connect with me:
-
-- LinkedIn: *(Add your LinkedIn URL)*
-- GitHub: *(Add your GitHub URL)*
-- Email: *(Add your email address)*
-
----
 
 ⭐ Thank you for visiting my portfolio!
