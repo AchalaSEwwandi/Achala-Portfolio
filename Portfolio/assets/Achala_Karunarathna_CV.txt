@@ -1,0 +1,72 @@
+ACHALA KARUNARATHNA
+Software Engineering Undergraduate | Full-Stack Developer
+Email: hkachalasewwandi2003@gmail.com | Phone: +94 76 926 0390
+LinkedIn: linkedin.com/in/achala-karunarathna | GitHub: github.com/achala
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+Motivated undergraduate Software Engineering student at SLIIT with hands-on 
+experience in full-stack web and mobile application development. Experienced in 
+MERN Stack, Spring Boot, React, Java, and cloud technologies. Strong problem-solving, 
+leadership, and teamwork skills developed through academic and collaborative projects. 
+Passionate about creating efficient, scalable, and user-focused software solutions.
+
+================================================================================
+EDUCATION
+================================================================================
+Sri Lanka Institute of Information Technology (SLIIT)
+BSc (Hons) in Information Technology (Specializing in Software Engineering)
+Duration: 2023 - 2027
+Current GPA: 2.94
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+* Programming Languages: Java, Python, Kotlin, PHP, C, C++
+* Frontend:              HTML, CSS, JavaScript, React.js, Tailwind CSS
+* Backend:               Node.js, Express.js, Spring Boot, REST APIs
+* Databases:             MongoDB, MySQL, SQL
+* Cloud & Tools:         AWS, Docker, Git, GitHub, VS Code, Android Studio, Eclipse
+
+================================================================================
+FEATURED PROJECTS
+================================================================================
+1. Smart Campus Operation Hub (Team Leader)
+   * Tech Stack: Spring Boot, React.js, MongoDB, JWT Authentication
+   * Description: Full-stack platform for managing university resources.
+   * Features: Lecture hall booking, lab reservations, maintenance reporting, 
+     role-based access control, real-time notifications.
+
+2. Camping Gear Rental and Sales Platform
+   * Tech Stack: MongoDB, Express.js, React.js, Node.js
+   * Description: MERN-based e-commerce system for renting and purchasing camping gear.
+   * Features: Product catalog, user management, rental management, order processing.
+
+3. Smart Student Health Career Support System (Team Leader)
+   * Tech Stack: MongoDB, Express.js, React.js, Node.js
+   * Description: Integrated platform for healthcare, delivery services, and career support.
+   * Features: Doctor appointment booking, prescription management, delivery 
+     management, AI-powered chatbot, role-based dashboards.
+
+4. Personal Wellness Mobile Application
+   * Tech Stack: Kotlin, Android Studio
+   * Description: Android application for habit tracking and mood monitoring.
+   * Features: Hydration reminders, mood tracking, habit tracking, visual analytics.
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+* Full Stack Web Development
+* MongoDB and Schema Design
+* AWS Cloud Technical Essentials
+* Introduction to Cloud Computing
+* Linux Commands and Shell Scripting
+
+================================================================================
+SOFT SKILLS
+================================================================================
+* Leadership & Team Management
+* Communication & Teamwork
+* Adaptability & Problem Solving
+* Time Management

@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achala Karunarathna | Software Engineering Undergraduate & Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Achala Karunarathna, a motivated Software Engineering Undergraduate at SLIIT. Aspiring Software Engineering Intern with experience in MERN stack, Spring Boot, React, and cloud technologies.">
+    <meta name="keywords" content="Achala Karunarathna, Software Engineer, Portfolio, SLIIT, Full-Stack Developer, MERN Stack, Spring Boot, React, Developer Portfolio">
+    <meta name="author" content="Achala Karunarathna">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Achala Karunarathna | Portfolio">
+    <meta property="og:description" content="Software Engineering Undergraduate & Full-Stack Developer passionate about building scalable web and mobile applications.">
+    <meta property="og:image" content="assets/portfolio-preview.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Ambient Glow Blobs -->
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Achala<span>.</span></a>
+            
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Availability Badge -->
+                <div class="status-badge" id="internship-status">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Available for Internship</span>
+                </div>
+                
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <div class="mobile-nav-footer">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span class="status-text">Available for Internship</span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal fade-up">
+                    <div class="badge-container">
+                        <span class="hero-badge"><i class="fa-solid fa-graduation-cap"></i> Aspiring Software Engineering Intern</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <br><span class="highlight-text">Achala Karunarathna</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineering Undergraduate | Full-Stack Developer</h2>
+                    <p class="hero-tagline">
+                        "Passionate about building scalable web and mobile applications that solve real-world problems."
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="Achala_Karunarathna_CV.pdf" class="btn btn-primary" download id="download-cv-btn">
+                            <i class="fa-solid fa-download"></i> Download CV
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:hkachalasewwandi2003@gmail.com" class="social-link" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Graphic Hero Visual -->
+                <div class="hero-visual reveal fade-left">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-image-container glass-panel">
+                            <img src="assets/profile.png" alt="Achala Karunarathna" class="profile-photo">
+                        </div>
+                        <!-- Secondary stats card -->
+                        <div class="stats-card glass-panel float-card">
+                            <div class="stats-icon">
+                                <i class="fa-solid fa-code-branch"></i>
+                            </div>
+                            <div class="stats-info">
+                                <span class="stats-num">3+</span>
+                                <span class="stats-label">Academic Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll to About Me">
+                    <span class="mouse">
+                        <span class="wheel"></span>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section section" id="about">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Get To Know Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-content reveal fade-right">
+                        <p class="about-paragraph">
+                            Motivated undergraduate Software Engineering student at <strong>Sri Lanka Institute of Information Technology (SLIIT)</strong> with hands-on experience in full-stack web and mobile application development.
+                        </p>
+                        <p class="about-paragraph">
+                            Experienced in <strong>MERN Stack, Spring Boot, React, Java, and cloud technologies</strong>. Strong problem-solving, leadership, and teamwork skills developed through academic and collaborative projects. Passionate about creating efficient, scalable, and user-focused software solutions.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item glass-panel">
+                                <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <h4>Education</h4>
+                                <p>BSc (Hons) in IT @ SLIIT</p>
+                            </div>
+                            <div class="highlight-item glass-panel">
+                                <div class="highlight-icon"><i class="fa-solid fa-chart-line"></i></div>
+                                <h4>GPA</h4>
+                                <p>2.94 Cumulative</p>
+                            </div>
+                            <div class="highlight-item glass-panel">
+                                <div class="highlight-icon"><i class="fa-solid fa-users"></i></div>
+                                <h4>Leadership</h4>
+                                <p>Team Leader in major projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats-gallery reveal fade-left">
+                        <div class="stats-grid">
+                            <div class="stat-box glass-panel">
+                                <span class="stat-number">2027</span>
+                                <span class="stat-text">Graduation Year</span>
+                            </div>
+                            <div class="stat-box glass-panel">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-text">Certifications</span>
+                            </div>
+                            <div class="stat-box glass-panel">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-text">Technologies Used</span>
+                            </div>
+                            <div class="stat-box glass-panel">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-text">Dedicated to Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="skills-section section" id="skills">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-tag">My Expertise</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category glass-panel reveal fade-up">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge"><i class="fa-brands fa-java text-orange"></i> Java</span>
+                            <span class="skill-badge"><i class="fa-brands fa-python text-yellow"></i> Python</span>
+                            <span class="skill-badge"><i class="fa-solid fa-mobile-screen-button text-blue"></i> Kotlin</span>
+                            <span class="skill-badge"><i class="fa-brands fa-php text-purple"></i> PHP</span>
+                            <span class="skill-badge"><i class="fa-solid fa-hashtag text-cyan"></i> C</span>
+                            <span class="skill-badge"><i class="fa-solid fa-c text-blue"></i> C++</span>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category glass-panel reveal fade-up" style="animation-delay: 0.1s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge"><i class="fa-brands fa-html5 text-orange"></i> HTML</span>
+                            <span class="skill-badge"><i class="fa-brands fa-css3-alt text-blue"></i> CSS</span>
+                            <span class="skill-badge"><i class="fa-brands fa-js text-yellow"></i> JavaScript</span>
+                            <span class="skill-badge"><i class="fa-brands fa-react text-cyan"></i> React.js</span>
+                            <span class="skill-badge"><i class="fa-solid fa-wind text-teal"></i> Tailwind CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category glass-panel reveal fade-up" style="animation-delay: 0.2s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend & APIs</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge"><i class="fa-brands fa-node-js text-green"></i> Node.js</span>
+                            <span class="skill-badge"><i class="fa-solid fa-gears text-gray"></i> Express.js</span>
+                            <span class="skill-badge"><i class="fa-solid fa-leaf text-green"></i> Spring Boot</span>
+                            <span class="skill-badge"><i class="fa-solid fa-network-wired text-blue"></i> REST APIs</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category glass-panel reveal fade-up" style="animation-delay: 0.3s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge"><i class="fa-solid fa-leaf text-green"></i> MongoDB</span>
+                            <span class="skill-badge"><i class="fa-solid fa-server text-blue"></i> MySQL</span>
+                            <span class="skill-badge"><i class="fa-solid fa-table text-cyan"></i> SQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Cloud & Tools -->
+                    <div class="skill-category glass-panel reveal fade-up" style="animation-delay: 0.4s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Cloud & Tools</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge"><i class="fa-brands fa-aws text-orange"></i> AWS</span>
+                            <span class="skill-badge"><i class="fa-brands fa-docker text-blue"></i> Docker</span>
+                            <span class="skill-badge"><i class="fa-brands fa-git-alt text-orange"></i> Git</span>
+                            <span class="skill-badge"><i class="fa-brands fa-github text-white"></i> GitHub</span>
+                            <span class="skill-badge"><i class="fa-solid fa-code text-blue"></i> VS Code</span>
+                            <span class="skill-badge"><i class="fa-solid fa-mobile-screen text-green"></i> Android Studio</span>
+                            <span class="skill-badge"><i class="fa-solid fa-sun text-purple"></i> Eclipse</span>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category glass-panel reveal fade-up" style="animation-delay: 0.5s;">
+                        <div class="category-header">
+                            <i class="fa-solid fa-users-gear"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Leadership</span>
+                            <span class="skill-badge">Team Management</span>
+                            <span class="skill-badge">Communication</span>
+                            <span class="skill-badge">Teamwork</span>
+                            <span class="skill-badge">Adaptability</span>
+                            <span class="skill-badge">Problem Solving</span>
+                            <span class="skill-badge">Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section class="education-section section" id="education">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-tag">My Journey</span>
+                    <h2 class="section-title">Education & Certifications</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="edu-cert-grid">
+                    <!-- Left: Education Timeline -->
+                    <div class="timeline-container reveal fade-right">
+                        <h3 class="timeline-section-title"><i class="fa-solid fa-user-graduate"></i> Education</h3>
+                        <div class="timeline">
+                            <div class="timeline-item glass-panel">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">2023 – 2027</div>
+                                <h4 class="timeline-title">BSc (Hons) in Information Technology</h4>
+                                <span class="timeline-institution">Sri Lanka Institute of Information Technology (SLIIT)</span>
+                                <div class="gpa-tag">GPA: 2.94</div>
+                                <p class="timeline-desc">Specializing in Software Engineering. Gaining advanced training in software architectures, systems design, object-oriented design, databases, mobile architectures, and cloud deployment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Certifications -->
+                    <div class="certifications-container reveal fade-left">
+                        <h3 class="timeline-section-title"><i class="fa-solid fa-award"></i> Certifications</h3>
+                        <div class="certifications-grid">
+                            <div class="cert-card glass-panel">
+                                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                                <div class="cert-info">
+                                    <h4>Full Stack Web Development</h4>
+                                    <span class="cert-issuer">Academic/Online Program</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel">
+                                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                                <div class="cert-info">
+                                    <h4>MongoDB and Schema Design</h4>
+                                    <span class="cert-issuer">MongoDB University</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel">
+                                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                                <div class="cert-info">
+                                    <h4>AWS Cloud Technical Essentials</h4>
+                                    <span class="cert-issuer">Amazon Web Services</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel">
+                                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                                <div class="cert-info">
+                                    <h4>Introduction to Cloud Computing</h4>
+                                    <span class="cert-issuer">IBM / Coursera</span>
+                                </div>
+                            </div>
+                            <div class="cert-card glass-panel">
+                                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                                <div class="cert-info">
+                                    <h4>Linux Commands and Shell Scripting</h4>
+                                    <span class="cert-issuer">IBM / Coursera</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="projects-section section" id="projects">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-tag">My Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <!-- Project Filter Buttons -->
+                <div class="project-filters reveal fade-up">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="springboot">Spring Boot</button>
+                    <button class="filter-btn" data-filter="mern">MERN Stack</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile (Kotlin)</button>
+                </div>
+                
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: Smart Campus Operation Hub -->
+                    <div class="project-card glass-panel reveal fade-up" data-tech="springboot">
+                        <div class="project-card-header">
+                            <span class="project-role-badge lead"><i class="fa-solid fa-crown"></i> Team Leader</span>
+                            <div class="project-visual-placeholder springboot-bg">
+                                <i class="fa-solid fa-school"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Smart Campus Operation Hub</h3>
+                            <p class="project-description">A full-stack, enterprise-grade platform designed to streamline and manage university resources efficiently.</p>
+                            
+                            <h4 class="details-title">Key Features:</h4>
+                            <ul class="project-features">
+                                <li>Lecture hall booking & scheduling</li>
+                                <li>Lab reservations with real-time status</li>
+                                <li>Maintenance reporting & issue tracking</li>
+                                <li>Role-based access control (RBAC)</li>
+                                <li>Real-time notification system</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">JWT</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> Codebase
+                                </a>
+                                <span class="project-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Camping Gear Rental and Sales Platform -->
+                    <div class="project-card glass-panel reveal fade-up" data-tech="mern" style="animation-delay: 0.1s;">
+                        <div class="project-card-header">
+                            <span class="project-role-badge"><i class="fa-solid fa-user"></i> Full-Stack Dev</span>
+                            <div class="project-visual-placeholder camping-bg">
+                                <i class="fa-solid fa-campground"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Camping Gear Rental & Sales</h3>
+                            <p class="project-description">A MERN-based e-commerce application allowing outdoor enthusiasts to rent and buy high-quality gear.</p>
+                            
+                            <h4 class="details-title">Key Features:</h4>
+                            <ul class="project-features">
+                                <li>Categorised product catalog & search</li>
+                                <li>User management (Customer/Admin)</li>
+                                <li>Dynamic rental duration calculation</li>
+                                <li>Order processing & cart management</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> Codebase
+                                </a>
+                                <span class="project-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Smart Student Health Career Support System -->
+                    <div class="project-card glass-panel reveal fade-up" data-tech="mern" style="animation-delay: 0.2s;">
+                        <div class="project-card-header">
+                            <span class="project-role-badge lead"><i class="fa-solid fa-crown"></i> Team Leader</span>
+                            <div class="project-visual-placeholder healthcare-bg">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Student Health & Career Support</h3>
+                            <p class="project-description">An integrated academic portal coordinating healthcare appointments, delivery, and career support services.</p>
+                            
+                            <h4 class="details-title">Key Features:</h4>
+                            <ul class="project-features">
+                                <li>Doctor appointment booking calendar</li>
+                                <li>Medical prescription upload & verification</li>
+                                <li>Medicine delivery logistics tracking</li>
+                                <li>AI-powered mental health chatbot</li>
+                                <li>Role-based client & staff dashboards</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> Codebase
+                                </a>
+                                <span class="project-date">2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Personal Wellness Mobile Application -->
+                    <div class="project-card glass-panel reveal fade-up" data-tech="mobile" style="animation-delay: 0.3s;">
+                        <div class="project-card-header">
+                            <span class="project-role-badge"><i class="fa-solid fa-user"></i> Mobile Developer</span>
+                            <div class="project-visual-placeholder wellness-bg">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Personal Wellness App</h3>
+                            <p class="project-description">A native Android application focused on tracking habits, mindfulness, and user wellbeing statistics.</p>
+                            
+                            <h4 class="details-title">Key Features:</h4>
+                            <ul class="project-features">
+                                <li>Dynamic hydration tracking & notification</li>
+                                <li>Mood logging & daily emotional metrics</li>
+                                <li>Flexible habit routine streak tracker</li>
+                                <li>Visual data charts & history analytics</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Kotlin</span>
+                                <span class="tech-tag">Android Studio</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> Codebase
+                                </a>
+                                <span class="project-date">2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="section-header reveal fade-up">
+                    <span class="section-tag">Let's Connect</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info-container reveal fade-right">
+                        <h3 class="contact-subheading">Get in Touch</h3>
+                        <p class="contact-desc">I am currently actively seeking <strong>Software Engineering Internship</strong> opportunities starting in 2026/2027. Feel free to reach out to me for projects, collaborations, or internships!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-detail-card glass-panel">
+                                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="detail-content">
+                                    <h5>Email</h5>
+                                    <a href="mailto:hkachalasewwandi2003@gmail.com">hkachalasewwandi2003@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-card glass-panel">
+                                <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="detail-content">
+                                    <h5>Phone</h5>
+                                    <a href="tel:+94769260390">+94 76 926 0390</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-card glass-panel">
+                                <div class="detail-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                                <div class="detail-content">
+                                    <h5>LinkedIn</h5>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">Achala Karunarathna</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-card glass-panel">
+                                <div class="detail-icon"><i class="fa-brands fa-github"></i></div>
+                                <div class="detail-content">
+                                    <h5>GitHub</h5>
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/achala</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Form -->
+                    <div class="contact-form-container reveal fade-left">
+                        <form class="contact-form glass-panel" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="logo">Achala<span>.</span></a>
+                <p>Building efficient, scalable, and user-focused software solutions.</p>
+            </div>
+            
+            <div class="footer-middle">
+                <h4>Navigation</h4>
+                <div class="footer-nav">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <h4>Follow Me</h4>
+                <div class="footer-socials">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:hkachalasewwandi2003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Achala Karunarathna. All Rights Reserved. Designed with <i class="fa-solid fa-heart text-red animate-pulse"></i></p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Email Configuration -->
+    <script src="email.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
